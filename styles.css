@@ -21,23 +21,8 @@ body {
 .jcsb {
     justify-content: space-between;
 }
-.jcsa {
-    justify-content: space-around;
-}
-.jcfs {
-    justify-content: flex-start;
-}
-.jcfe {
-    justify-content: flex-end;
-}
 .aic {
     align-items: center;
-}
-.aifs {
-    align-items: flex-start;
-}
-.aife {
-    align-items: flex-end;
 }
 .hidden {
     display: none;
