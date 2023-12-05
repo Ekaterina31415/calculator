@@ -24,15 +24,6 @@ body {
 .aic {
     align-items: center;
 }
-.hidden {
-    display: none;
-}
-ul, li {
-  list-style-type: none;
-}
-a {
-    text-decoration: none;
-}
 
 .calculator {
   height: 100vh;
