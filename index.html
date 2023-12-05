@@ -3,9 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Calculator</title>
 </head>
 <body>
-  
+  <div class="calculator column jcc aic">
+    <div class="container column jcc aic">
+      <input type="text" class="display js-display" placeholder="0" readonly>
+      <div class="row jcsb aic">
+        <button class="btn js-btn-calculate">x²</button>
+        <button class="btn js-btn">(</button>
+        <button class="btn js-btn">)</button>
+        <button class="btn js-btn" id="AC">AC</button>
+        <button class="btn js-btn" id="C">C</button>
+      </div>
+      <div class="row jcsb aic">
+        <button class="btn js-btn-calculate">√</button>
+        <button class="btn js-btn">7</button>
+        <button class="btn js-btn">8</button>
+        <button class="btn js-btn">9</button>
+        <button class="btn js-btn">÷</button>
+      </div>
+      <div class="row jcsb aic">
+        <button class="btn js-btn-calculate">sin</button>
+        <button class="btn js-btn">4</button>
+        <button class="btn js-btn">5</button>
+        <button class="btn js-btn">6</button>
+        <button class="btn js-btn">x</button>
+      </div>
+      <div class="row jcsb aic">
+        <button class="btn js-btn-calculate">cos</button>
+        <button class="btn js-btn">1</button>
+        <button class="btn js-btn">2</button>
+        <button class="btn js-btn">3</button>
+        <button class="btn js-btn">-</button>
+      </div>
+      <div class="row jcsb aic">
+        <button class="btn js-btn-calculate">tan</button>
+        <button class="btn js-btn">0</button>
+        <button class="btn js-btn">.</button>
+        <button class="btn js-btn" id="eval">=</button>
+        <button class="btn js-btn">+</button>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
